@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "chrome-headed": "cypress run --browser chrome --headed ",
+		"chrome-headless": "cypress run --browser chrome",
+    "test": "cypress run"
   },
   "author": "",
   "license": "ISC",
